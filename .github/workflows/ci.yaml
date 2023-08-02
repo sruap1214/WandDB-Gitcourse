@@ -7,3 +7,6 @@ jobs:
       - name: hello
         run: |
           echo "Hello World"
+      - name : Exit
+        run:
+          exit 1;
